@@ -1,0 +1,72 @@
+ 
+ body {
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ .header-area {
+     display: flex;
+     background-image: url(images/top-banner.png);
+     background-repeat: no-repeat;
+     margin-bottom: 100px;
+ }
+ .welcome {
+     width: 50%;
+     padding: 30px;
+ }
+ h1 {
+     font-size: 40px;
+     font-weight: 700;
+ }
+ .spaan {
+     color:#FFA500; 
+ }
+ .welcome a {
+     text-decoration: none;
+     text-transform: uppercase;
+     background-image: linear-gradient(#FF674A, #FF9873);
+     padding: 10px 30px;
+    }
+ .photo {
+     width: 50%;
+     padding: 30px;
+ }
+.photo img {
+    width: 100%;  
+}
+
+
+.middle-area {
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 20px;
+}
+
+
+.full-stack {
+    display: flex; 
+}
+.middle2-area {
+    margin-bottom: 100px;
+}
+.items {
+    width: 40%;
+    margin: 0 5%; 
+    box-shadow: 10px 10px 20px #000000;
+    border-radius: 5px solid;
+    padding-left: 15px;
+}
+ #web-time {
+     border-left: 10px solid;
+     border-image: linear-gradient(#FF674A, blue);
+     border-image-slice: 1;
+ }
+h2 {
+    font-size: 30px;
+}
+footer-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
